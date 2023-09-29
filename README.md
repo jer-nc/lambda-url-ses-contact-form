@@ -2,11 +2,11 @@
 
 This demo provides an overview of two AWS Lambda functions that use the AWS SDK for JavaScript (v3) to send emails using Amazon SES (Simple Email Service). Each function demonstrates a different approach to sending emails: one using HTML and Text formats, and the other using custom email templates.
 
-> There is a sample React form component in this repository called ContactForm.jsx.
+> There is a sample React form component in this repository called `ContactForm.jsx`.
 
 ![Lambda Function Demo](./readme.png)
 
-## Lambda Function 1 - Send Email (HTML and Text Formats)
+## ses_html_text_demo - Send Email (HTML and Text Formats)
 
 ### Function Overview
 
@@ -36,7 +36,7 @@ Before deploying this Lambda function, ensure that you've replaced the following
 2. Set up a trigger source (e.g., API Gateway) to invoke the Lambda function and pass the required event data (email, name, message).
 3. When triggered, the Lambda function will send an email with the provided details to the specified recipient.
 
-## Lambda Function 2 - Send Email Using Templates
+## ses_template_demo - Send Email Using Templates
 
 ### Function Overview
 
